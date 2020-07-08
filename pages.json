@@ -1,0 +1,129 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/main/main",
+			"style": {
+			    "app-plus": {
+			        "titleNView": {
+			            "buttons": [{
+			                    "text": "\ue606",
+			                    "fontSrc": "/static/iconfont.ttf",
+			                    "fontSize": "22px"
+			                }
+			            ]
+			        }
+			    }
+			}
+		}, {
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "登录模板"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	    ,{
+            "path" : "pages/day/day",
+            "style" : {
+				"navigationBarTitleText": "打卡"}
+        }
+        ,{
+            "path" : "pages/day_list/day_list",
+            "style" : {
+				"navigationBarTitleText": "打卡记录"}
+        }
+        ,{
+            "path" : "pages/settings/settings",
+            "style" : {
+				"navigationBarTitleText": "上机设置"
+			}
+        }
+        ,{
+            "path" : "pages/prod_list/prod_list",
+            "style" : {
+				"navigationBarTitleText": "产品列表"
+			}
+        }
+        ,{
+            "path" : "pages/aftseals/aftseals",
+            "style" : {
+				"navigationBarTitleText": "售后列表"
+			}
+        }
+        ,{
+            "path" : "pages/prod/prod",
+            "style" : {
+				"navigationBarTitleText": "产品检验评级"
+			}
+        }
+        ,{
+            "path" : "pages/result/result",
+            "style" : {
+				"navigationBarTitleText": "搜索结果"
+			}
+        }
+        ,{
+            "path" : "pages/sebsettings/sebsettings",
+            "style" : {
+				"navigationBarTitleText": "设备设置"
+			}
+        }
+        ,{
+            "path" : "pages/settings_list/settings_list",
+            "style" : {
+				"navigationBarTitleText": "操作记录"
+			}
+        }
+        ,{
+            "path" : "pages/out/out",
+            "style" : {
+				"navigationBarTitleText": "出库"
+			}
+        }
+        ,{
+            "path" : "pages/warnning/warnning",
+            "style" : {
+				"navigationBarTitleText": "仓库监控"
+			}
+        }
+    ],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/main/main",
+			"text": "首页",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		}, {
+			"pagePath": "pages/user/user",
+			"text": "我的",
+			"iconPath": "static/img/user.png",
+			"selectedIconPath": "static/img/userHL.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	}
+}
